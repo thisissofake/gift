@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { Helmet } from 'react-helmet';
+
 import { Layout } from 'components';
 
 import { Entry, Success } from './components';
@@ -9,6 +11,10 @@ function Home() {
 
   return (
     <Layout>
+      <Helmet>
+        <title>С др кароч</title>
+      </Helmet>
+
       {codeEntered ? (
         <Success />
       ) : (
