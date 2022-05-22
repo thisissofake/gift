@@ -12,7 +12,7 @@ function Success() {
         Твой подарок сейчас в пути!
       </Typography>
       <Typography variant='h4' gutterBottom>
-        Заходи сюда 26 мая в 15:00, будет интересно
+        Заходи сюда 26 мая в 18:00, будет интересно
       </Typography>
 
       <StaticImage alt='Опять ждать' src='./assets/zhdun.png' width={400} />
